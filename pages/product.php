@@ -102,7 +102,7 @@ $sup .= "</select>";
 </div>
 
 <?php
-include'../includes/footer.php';
+include'../includes/footer.phps';
 ?>
 
 <!-- Product Modal-->
