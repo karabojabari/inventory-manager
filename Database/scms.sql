@@ -94,9 +94,9 @@ CREATE TABLE `employee` (
 --
 
 INSERT INTO `employee` (`EMPLOYEE_ID`, `FIRST_NAME`, `LAST_NAME`, `GENDER`, `EMAIL`, `PHONE_NUMBER`, `JOB_ID`, `HIRED_DATE`, `LOCATION_ID`) VALUES
-(1, 'Erick', 'Cesar', 'Male', 'admin@gmail.com', '0123456789', 1, '0000-00-00', 113),
-(2, 'Josuey', 'Mag-asos', 'Male', 'jmagaso@yahoo.com', '09091245761', 2, '2019-01-28', 156),
-(4, 'Monica', 'Empinado', 'Female', 'monicapadernal@gmail.com', '09123357105', 1, '2019-03-06', 158);
+(1, 'Erick', 'Cesar', 'Male', 'admin@gmail.com', '0123456789', 1, '0000-00-00', 1),
+(2, 'Josuey', 'Mag-asos', 'Male', 'jmagaso@yahoo.com', '09091245761', 2, '2019-01-28', 10),
+(4, 'Monica', 'Empinado', 'Female', 'monicapadernal@gmail.com', '09123357105', 1, '2019-03-06', 13);
 
 -- --------------------------------------------------------
 
@@ -133,31 +133,31 @@ CREATE TABLE `location` (
 -- Dumping data for table `location`
 --
 
-INSERT INTO `location` (`PROVINCE`, `CITY`) VALUES
-('Central', 'Palapye'),
-('Central', 'Serowe'),
-('Central', 'Mahalapye'),
-('Central', 'Tutume'),
-('Ghanzi', 'Ghanzi'),
-('Ghanzi', 'Charles Hill'),
-('Kgalagadi', 'Tsabong'),
-('Kgalagadi', 'Hukuntsi'),
-('Kgatleng', 'Mochudi'),
-('Kgatleng', 'Lentsweletau'),
-('Kweneng', 'Molepolole'),
-('Kweneng', 'Mogoditshane'),
-('Kweneng', 'Thamaga'),
-('North West', 'Maun'),
-('North West', 'Kasane'),
-('North West', 'Gumare'),
-('North East', 'Francistown'),
-('North East', 'Masunga'),
-('South East', 'Gaborone'),
-('South East', 'Ramotswa'),
-('Southern', 'Kanye'),
-('Southern', 'Moshupa'),
-('Southern', 'Lobatse'),
-('Southern', 'Jwaneng');
+INSERT INTO `location` (`LOCATION_ID`,`PROVINCE`, `CITY`) VALUES
+(1,'Central', 'Palapye'),
+(2,'Central', 'Serowe'),
+(3,'Central', 'Mahalapye'),
+(4,'Central', 'Tutume'),
+(5,'Ghanzi', 'Ghanzi'),
+(6,'Ghanzi', 'Charles Hill'),
+(7,'Kgalagadi', 'Tsabong'),
+(8,'Kgalagadi', 'Hukuntsi'),
+(9,'Kgatleng', 'Mochudi'),
+(10,'Kgatleng', 'Lentsweletau'),
+(11,'Kweneng', 'Molepolole'),
+(12,'Kweneng', 'Mogoditshane'),
+(13,'Kweneng', 'Thamaga'),
+(14,'North West', 'Maun'),
+(15,'North West', 'Kasane'),
+(16,'North West', 'Gumare'),
+(17,'North East', 'Francistown'),
+(18,'North East', 'Masunga'),
+(19,'South East', 'Gaborone'),
+(20,'South East', 'Ramotswa'),
+(21,'Southern', 'Kanye'),
+(22,'Southern', 'Moshupa'),
+(23,'Southern', 'Lobatse'),
+(24,'Southern', 'Jwaneng');
 
 -- --------------------------------------------------------
 
@@ -178,7 +178,7 @@ CREATE TABLE `manager` (
 --
 
 INSERT INTO `manager` (`FIRST_NAME`, `LAST_NAME`, `LOCATION_ID`, `EMAIL`, `PHONE_NUMBER`) VALUES
-('Erick', 'Cesar', 113, 'admin@gmail.com', '0123456789');
+('Erick', 'Cesar', 11, 'admin@gmail.com', '0123456789');
 
 -- --------------------------------------------------------
 
@@ -248,11 +248,11 @@ CREATE TABLE `supplier` (
 --
 
 INSERT INTO `supplier` (`SUPPLIER_ID`, `COMPANY_NAME`, `LOCATION_ID`, `PHONE_NUMBER`) VALUES
-(11, 'InGame Tech', 114, '09457488521'),
-(12, 'Asus', 115, '09635877412'),
-(13, 'Razer Co.', 111, '09587855685'),
-(15, 'Strategic Technology Co.', 116, '09124033805'),
-(16, 'A4tech', 155, '09775673257');
+(11, 'InGame Tech', 14, '09457488521'),
+(12, 'Asus', 15, '09635877412'),
+(13, 'Razer Co.', 11, '09587855685'),
+(15, 'Strategic Technology Co.', 16, '09124033805'),
+(16, 'A4tech', 20, '09775673257');
 
 -- --------------------------------------------------------
 
