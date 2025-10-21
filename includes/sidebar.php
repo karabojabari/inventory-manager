@@ -70,7 +70,7 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <<li class="nav-item">
+      <li class="nav-item">
     <a class="nav-link text-white" href="index.php">
         <i class="fas fa-fw fa-home text-white"></i>
         <span class="text-white">Home</span>

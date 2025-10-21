@@ -43,7 +43,7 @@
             <!-- Nested Row within Card Body -->
             <div class="row shadow">
              
-              <div class="col-lg-6">
+              <div class="col-lg-6 mx-auto">
                 <div class="p-5">
                   <div class="text-center">
                     <h1 class="h4 mb-4 font-weight-bold" style="color: #166534;">Welcome to Inventory Management System!</h1>
